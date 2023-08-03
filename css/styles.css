@@ -516,7 +516,7 @@ section .title::after{
 }
 .container .box .content a
 {
-    display: inline-block;
+    /* display: inline-block;
     font-size: 1.1em;
     color: #111;
     background: #fff;
@@ -524,7 +524,7 @@ section .title::after{
     border-radius: 4px;
     text-decoration: none;
     font-weight: 700;
-    margin-top: 5px;
+    margin-top: 5px; */
 }
 .container .box span
 {
@@ -630,7 +630,7 @@ section .title::after{
     background-position: center;
     
 }
-.container .box:hover #first::after
+/* .container .box:hover #first::after
 {
     bottom: -50px;
     right: 50px;
@@ -640,7 +640,7 @@ section .title::after{
     background: url("/assets/github-mark-white.png") no-repeat;
     background-size: 100px;
     background-position: center;
-}
+} */
 @keyframes animate
 {
     0%,100%
