@@ -722,10 +722,11 @@ input,textarea
   cursor: pointer;
   flex-wrap: nowrap;
   border: 2px solid #13c4a5;
+  background-color: #dfe6e9;
   transition: all 0.3s ease-in-out;
 }
 .right form .button-area button:hover{
-  color: white;
+  color: #dfe6e9;
   background: #13c4a5;
 }
 /* footer section styling */
