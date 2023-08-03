@@ -265,7 +265,7 @@ section .title::after{
     background: #fff;
 }
 .about .title::after{
-    content: "who i am";
+    content: "Who am I?";
     background-color: #212121;
     color: #dfe6e9;
 }
