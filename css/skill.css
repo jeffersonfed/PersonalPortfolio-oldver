@@ -26,7 +26,7 @@
 
 .skill-box:hover{
     color: #dfe6e9;
-    background-color: #13c4a5;
+    /* background-color: #13c4a5; */
 }
 
 /* table tr .bars td a+a{
@@ -38,21 +38,9 @@ table tr .bars td{
     border-spacing: 30px;
 } */
 .bars td a:hover{
-    background-color: #dfe6e9;
+    color: #dfe6e9;
 }
-.container .box .content .active{
-    position: relative;
-    left: 0;
-    padding: 20px 40px;
-    background:rgb(255, 255, 255);
-    /* box-shadow: inset -1px 1px 15px rgb(255 0 0); */
-    border-radius: 8px;
-    border: #13c4a5;
-    backdrop-filter: blur(10ox);
-    z-index: 1;
-    transition: 0.5s;
-    color: #fff;
-}
+
 i.popup {
     height: 0;
     color: #13c4a5;
@@ -62,11 +50,12 @@ i.popup {
   }
   i.popup:after {
     content: attr(data-popuptext);
-    background: rgba(0, 0, 0, 0.85);
-    border-radius: 3px;
+    /* background: rgba(0, 0, 0, 0.85); */
+    border-radius: 0.5px;
     opacity: 0;
     top: 0;
     left: 0;
+    right: 0;
     position: absolute;
     transition: 500ms ease;
     white-space: nowrap;
@@ -77,6 +66,7 @@ i.popup {
   i.popup:hover{
     color: #dfe6e9;
     background-color: #13c4a5;
+    
 }
   i.popup:hover:after {
     
