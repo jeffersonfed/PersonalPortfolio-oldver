@@ -100,7 +100,7 @@ section .title::after{
 }
 .navbar .logo a{
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -307,13 +307,6 @@ section .title::after{
     background: #13c4a5;
 
 } 
-.country {
-    /* padding: 10px 10px; */
-    /* font-weight: bold; */
-    /* overflow: auto; */
-    /* border-radius: 5px; */
-  }
-
 
   .country .date {
     font-size: 18px;
