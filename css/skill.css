@@ -29,14 +29,14 @@
     background-color: #13c4a5;
 }
 
-table tr .bars td a+a{
+/* table tr .bars td a+a{
     padding-left: 2em;
 }
 table tr .bars td{
     padding-left: 30px;
     align-items: center;
     border-spacing: 30px;
-}
+} */
 .bars td a:hover{
     background-color: #dfe6e9;
 }
