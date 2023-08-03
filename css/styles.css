@@ -358,18 +358,18 @@ section .title::after{
     padding: 8px 1px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #13c4a5;
+    /* border: 2px solid #13c4a5; */
     transition: 0.3s ease-in-out;
 }
 .skills .skills-content .left a:hover{
     color: white;
-    background: #13c4a5;
+    /* background: #13c4a5; */
 }
 .skills .skills-content .left p #link
 {
     border: none;
     text-decoration: none;
-    color: #13c4a5;
+    /* color: #13c4a5; */
 }
 
 .skills .skills-content .left p #link:hover
@@ -386,17 +386,19 @@ section .title::after{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
 }
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
+    text-align: center;
 }
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
-    position: relative;
+    position: relative;s
 }
 .skills .skills-content .right .line::before{
     content: "";
