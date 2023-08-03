@@ -258,11 +258,16 @@ section .title::after{
 
 /* about section styling */
 .about{
-    background-color: #dfe6e9;
+    background-color: #212121;
+    color: #dfe6e9;
+}
+.about .title::before{
+    background: #fff;
 }
 .about .title::after{
     content: "who i am";
-    background-color: #dfe6e9;
+    background-color: #212121;
+    color: #dfe6e9;
 }
 .about .about-content .left{
     width: 45%;
@@ -322,11 +327,16 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    background-color: #dfe6e9;
+    background-color: #212121;
+    color: #dfe6e9;
+}
+.skills .title::before{
+    background: #fff;
 }
 .skills .title::after{
     content: "what i know";
-    background-color: #dfe6e9;
+    background-color: #212121;
+    color: #dfe6e9;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -420,9 +430,12 @@ section .title::after{
 
 
 /* services section styling */
-.services, .teams{
-    color:#fff;
-    background: #111;
+.services{
+    background-color: #212121;
+}
+.services, .project{
+    color: #dfe6e9;
+    background-color: #212121;
 }
 .services .title::before,
 .teams .title::before{
@@ -430,7 +443,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background-color: #212121;
     content: "Projects Done";
     color: #dfe6e9;
 }
@@ -442,7 +455,7 @@ section .title::after{
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
-    background: #111;
+    background-color: #212121;
     cursor: pointer;
 }
 .container .box
@@ -456,19 +469,7 @@ section .title::after{
     margin: 40px 30px;
     transition: 0.5s;
 }
-.container .box::before
-{
-    /* content: '';
-    position: absolute;
-    top: 0;
-    left: 50px;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    border-radius: 8px;
-    transition: 0.5s;
-    transform: skewX(15deg); */
-}
+
 .container .box::after
 {
     content: '';
@@ -484,43 +485,7 @@ section .title::after{
     filter: blur(30px);
     transition: 0.5s;
 }
-/* .container .box:hover:before,
-.container .box:hover:after
-{
-    transform: skewX(0deg);
-    left: 20px;
-    width: calc(100% - 90px);
-} */
-/* .container .box:nth-child(1):before,
-.container .box:nth-child(1):after
-{
-    background: linear-gradient(315deg,#ffed4d,#ff0058);
-}
-.container .box:nth-child(2):before,
-.container .box:nth-child(2):after
-{
-    background: linear-gradient(315deg,#03a9f4,#ff0058);
-}
-.container .box:nth-child(3):before,
-.container .box:nth-child(3):after
-{
-    background: linear-gradient(315deg,#4dff03,#00d0ff);
-}
-.container .box:nth-child(4):before,
-.container .box:nth-child(4):after
-{
-    background: linear-gradient(315deg,#eecda3 , #ef629f);
-}
-.container .box:nth-child(5):before,
-.container .box:nth-child(5):after
-{
-    background: linear-gradient(-315deg,#c33764 ,#1d2671);
-}
-.container .box:nth-child(6):before,
-.container .box:nth-child(6):after
-{
-    background: linear-gradient(315deg,#36d1dc ,#5b86e5);
-} */
+
 .container .box .content
 {
     position: relative;
@@ -535,11 +500,7 @@ section .title::after{
     color: #fff;
 
 }
-/* .container .box:hover .content
-{
-    left: -25px;
-    padding:60px 40px ;
-} */
+
 .container .box .content h2
 {
     font-size: 2em;
@@ -593,78 +554,7 @@ section .title::after{
     animation: animate 2s ease-in-out infinite;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 05);
 }
-/* .container .box:hover #first::before 
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("https://cdn.icon-icons.com/icons2/2334/PNG/512/pen_tool_anchor_point_design_icon_142354.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter:invert(100%);
-}
-.container .box:hover #second::before 
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("../img/development_icon_131032.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter:invert(100%);
-}
-.container .box:hover #third::before 
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("https://cdn.icon-icons.com/icons2/2066/PNG/512/search_icon_125165.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter:invert(100%);
-}
-.container .box:hover #fourth::before 
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("https://cdn.icon-icons.com/icons2/935/PNG/512/video-camera-outline_icon-icons.com_73112.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter:invert(100%);
-}
-.container .box:hover #fifth::before 
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("https://cdn.icon-icons.com/icons2/620/PNG/512/bars-chart-ascending_icon-icons.com_56865.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter:invert(100%);
-}
-.container .box:hover #sixth::before 
-{
-    top: -50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("https://cdn.icon-icons.com/icons2/936/PNG/512/android-character-symbol_icon-icons.com_73684.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter:invert(100%);
-} */
+
 .container .box span::after
 {
     content: '';
@@ -770,11 +660,13 @@ input,textarea
     caret-color: red;
 }
 .contact{
-    background-color: #dfe6e9;
+    background-color: #212121;
+    color: #dfe6e9;
 }
 .contact .title::after{
     content: "get in touch";
-    background-color: #dfe6e9;
+    background-color: #212121;    
+    color: #dfe6e9;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
