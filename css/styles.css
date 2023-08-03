@@ -334,7 +334,7 @@ section .title::after{
     background: #fff;
 }
 .skills .title::after{
-    content: "what i know";
+    content: "My Knowledge";
     background-color: #212121;
     color: #dfe6e9;
 }
