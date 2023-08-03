@@ -2,14 +2,14 @@
     display: flex;
 }
 .skill-box{
-  background-color: #dfe6e9;
+  /* background-color: #dfe6e9; */
   width: 50px;
-  border: 2px #13c4a5;
+  border: 2px solid #13c4a5;
   padding: 2px;
   margin: 8px;
   text-align: center;
   /* height: 20px; */
   border-radius: 5px;
-  color: #212121;
+  color: #dfe6e9;
   
 }
