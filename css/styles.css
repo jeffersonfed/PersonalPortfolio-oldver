@@ -585,7 +585,7 @@ section .title::after{
     background-size: 100px;
     background-position: center;
 }
-.container .box:hover #second::after
+/* .container .box:hover #second::after
 {
     bottom: -50px;
     right: 50px;
@@ -596,7 +596,7 @@ section .title::after{
     background-size: 100px;
     background-position: center;
     
-}
+} */
 /* .container .box:hover #first::after
 {
     bottom: -50px;

@@ -1,19 +1,26 @@
 .skill-container{
     display: flex;
+    justify-content: space-between;
+}
+.skill-container2{
+    display: flex;
 }
 .skill-box{
   /* background-color: #dfe6e9; */
   width: 50px;
-  border: 2px solid #13c4a5;
-  padding: 2px;
-  margin: 8px;
+  /* border: 2px solid #13c4a5; */
+  /* padding: 2px 2px; */
+  margin: 0.5px;
   text-align: center;
   /* height: 20px; */
   border-radius: 5px;
-  color: #dfe6e9;
+  color: #13c4a5;
   
 }
 .skill-box a{
+    color: #13c4a5;
+}
+.skill-box a:hover{
     color: #dfe6e9;
 }
 
@@ -33,3 +40,50 @@ table tr .bars td{
 .bars td a:hover{
     background-color: #dfe6e9;
 }
+.container .box .content .active{
+    position: relative;
+    left: 0;
+    padding: 20px 40px;
+    background:rgb(255, 255, 255);
+    /* box-shadow: inset -1px 1px 15px rgb(255 0 0); */
+    border-radius: 8px;
+    border: #13c4a5;
+    backdrop-filter: blur(10ox);
+    z-index: 1;
+    transition: 0.5s;
+    color: #fff;
+}
+i.popup {
+    height: 0;
+    color: #13c4a5;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  i.popup:after {
+    content: attr(data-popuptext);
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 3px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 500ms ease;
+    white-space: nowrap;
+    max-height: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+  i.popup:hover{
+    color: #dfe6e9;
+    background-color: #13c4a5;
+}
+  i.popup:hover:after {
+    
+    opacity: 1;
+    top: 1.2em;
+    max-height: 200px;
+    padding: 0.4em;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
