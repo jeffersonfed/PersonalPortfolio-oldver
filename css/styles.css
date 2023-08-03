@@ -606,6 +606,7 @@ section .title::after{
     background: url("/assets/github-mark-white.png") no-repeat;
     background-size: 100px;
     background-position: center;
+    
 }
 .container .box:hover #third::after
 {

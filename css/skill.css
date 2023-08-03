@@ -13,3 +13,11 @@
   color: #dfe6e9;
   
 }
+.skill-box a{
+    color: #dfe6e9;
+}
+
+.skill-box:hover{
+    color: #dfe6e9;
+    background-color: #13c4a5;
+}
