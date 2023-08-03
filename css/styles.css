@@ -394,42 +394,6 @@ section .title::after{
     font-size: 18px;
     text-align: center;
 }
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;s
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: #13c4a5;
-}
-
-/* skill progress lenghts */
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 30%;
-}
-.skills-content .right .php::before{
-    width: 30%;
-}
-.skills-content .right .canva::before{
-    width: 85%;
-}
-.skills-content .right .wordpress::before{
-    width: 50%;
-}
-
-
 
 /* services section styling */
 .services{
