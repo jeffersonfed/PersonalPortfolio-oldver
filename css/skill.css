@@ -77,3 +77,24 @@ i.popup {
     font-family: 'Ubuntu', sans-serif;
   }
   
+  /* timezone */
+  .country .date {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    color: #dfe6e9;
+  }
+  .country .time {
+    font-size: 20px;
+    /* text-align: center; */
+    color: #dfe6e9;
+    display: flex;
+    float: left;
+  }
+  .time-detail{
+    display: flex;
+    font-size: 20px;
+
+    float: right;
+    color: #dfe6e9;
+  }
