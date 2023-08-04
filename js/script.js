@@ -35,30 +35,8 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         strings: ["I'm an Independent Learner", "For now, I focus on web development.", "Currently, I am focused on learning", "Currently, I am focused on learning", "JS frameworks and CSS frameworks(tailwind css, react.js, next.js, etc)"],
         typeSpeed: 50,
-        backSpeed: 80,
+        backSpeed: 70,
         loop: true
     });
-
-    // owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplay: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0:{
-                items: 1,
-                nav: false
-            },
-            600:{
-                items: 2,
-                nav: false
-            },
-            1000:{
-                items: 3,
-                nav: false
-            }
-        }
-    });
+    
 });
