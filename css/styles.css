@@ -19,7 +19,7 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #dfe6e9;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
@@ -76,7 +76,7 @@ section .title::after{
     font-size: 20px;
     color: #1E3E64;
     padding: 0 5px;
-    background: #fff;
+    background: #dfe6e9;
     transform: translateX(-50%);
 }
 
@@ -91,7 +91,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #0D1C2E;
+    background: #212121;
+    
 }
 .navbar .max-width{
     display: flex;
@@ -99,7 +100,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #ffffff;
+    color: #dfe6e9;
     font-size: 25px;
     font-weight: 600;
     cursor: pointer;
@@ -109,7 +110,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #13c4a5;
 }
 .navbar .menu li{
     list-style: none;
@@ -117,7 +118,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: #dfe6e9;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -127,14 +128,18 @@ section .title::after{
     color: #13c4a5;
     cursor: pointer;
 }
+.navbar.sticky .menu li a{
+    color: #13c4a5;
+
+}
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #dfe6e9;
     cursor: pointer;
 }
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: #dfe6e9;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -148,7 +153,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: #dfe6e9;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
