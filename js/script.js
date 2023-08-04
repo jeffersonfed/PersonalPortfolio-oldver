@@ -34,8 +34,8 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["I'm an Independent Learning", "Focus on Web development", "Currently, I am focused on learning", "Frameworks(tailwind css, react.js, next.js, etc)"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        typeSpeed: 50,
+        backSpeed: 80,
         loop: true
     });
 
