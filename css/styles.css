@@ -925,6 +925,9 @@ footer p a:hover
         width: 100%;
         margin-bottom: 35px;
     }
+    .skill-box{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -947,6 +950,9 @@ footer p a:hover
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .skill-box{
+        font-size: 20px;
     }
 }
 
@@ -978,5 +984,8 @@ footer p a:hover
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .skill-box{
+        font-size: 20px;
     }
 }
