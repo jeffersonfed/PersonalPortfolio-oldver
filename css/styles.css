@@ -319,7 +319,7 @@ section .title::after{
 } 
 
   .country .date {
-    font-size: 18px;
+    font-size: 15px;
     font-style: italic;
     text-align: center;
     color: #dfe6e9;
