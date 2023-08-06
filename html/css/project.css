@@ -270,7 +270,7 @@ section .title::after{
     line-height: 1.4em;
     padding: 12px;
 }
-.container .box .content a
+.container .box .content .live-preview
 {
     /* display: inline-block;
     font-size: 1.1em;
@@ -281,6 +281,15 @@ section .title::after{
     text-decoration: none;
     font-weight: 700;
     margin-top: 5px; */
+    display: inline-block;
+    color: #13c4a5;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.container .box .content .live-preview:hover{
+    color: #dfe6e9;
+    background: #13c4a5;
+    
 }
 .container .box span
 {
