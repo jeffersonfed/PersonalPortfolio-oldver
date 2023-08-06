@@ -48,6 +48,8 @@ i.popup {
     cursor: pointer;
     
   }
+
+  
   i.popup:after {
     content: attr(data-popuptext);
     /* background: rgba(0, 0, 0, 0.85); */
