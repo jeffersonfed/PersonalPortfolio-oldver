@@ -200,7 +200,7 @@ section .title::after{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px 0;
+    padding: 20px 0;
     background-color: #212121;
     cursor: pointer;
     
@@ -208,7 +208,7 @@ section .title::after{
 .container .box
 {
     position: relative;
-    width: 460px;
+    width: 400px;
     height: 400px;
     display: flex;
     justify-content: center;
