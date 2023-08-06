@@ -233,12 +233,14 @@
      </div>
      <div class="box" style="height: 10px;">
         <div class="content">
-        <a href="#" class="show-projects">
-            Show All Projects<br><button style="padding-left: 30%; padding-right: 30%; text-align: center; justify-content: center;" onclick="myFunction()">Show Issues</button>
+        <a href="admin.html" class="show-projects">
+            Show All Projects
         </a>
     </div>
     
     </div>
+    
+     
     
      <!-- <div class="box">
          <span id="fourth"></span>
@@ -377,5 +379,21 @@
             alert("Show all Projects Page under maintenance!");
         }
     </script>
+
+<script>
+    function auth(event) {
+          event.preventDefault();
+
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+
+          if (email === "admin@gmail.com" && password === "user") {
+               window.location.replace("/upload.html");
+          } else {
+              alert("Invalid information");
+              return;
+          }
+    }
+ </script> 
 </body>
 </html>
