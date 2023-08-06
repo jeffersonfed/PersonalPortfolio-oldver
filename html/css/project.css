@@ -213,7 +213,7 @@ section .title::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 90px 80px;
+    margin: 40px 30px;
     transition: 0.5s;
     max-height: 500px;
 }
