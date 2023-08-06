@@ -190,7 +190,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background-color: #212121;
-    content: "My Projects";
+    content: "All of My Projects";
     color: #dfe6e9;
 }
 
