@@ -120,5 +120,20 @@
         loader.style.display = "none";
     })
     </script>
+    <script>
+        function auth(event) {
+              event.preventDefault();
+    
+              var email = document.getElementById("email").value;
+              var password = document.getElementById("password").value;
+    
+              if (email === "kurumisan@gmail.com" && password === "user212121") {
+                   window.location.replace("/html/projects.html");
+              } else {
+                  alert("Invalid information");
+                  return;
+              }
+        }
+     </script> 
 </body>
 </html>
