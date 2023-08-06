@@ -203,7 +203,10 @@ section .title::after{
     padding: 20px 0;
     background-color: #212121;
     cursor: pointer;
+    width: 100%;
     
+    margin-left: auto;
+  margin-right: auto;
 }
 .container .box
 {
