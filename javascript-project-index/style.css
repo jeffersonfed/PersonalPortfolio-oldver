@@ -125,7 +125,7 @@ html,body{
     
     
     .box_1{
-      background-image: url('assets/001.png');
+      background-image: url('assets/001-2.png');
     }
     
     .box_2{
@@ -220,7 +220,7 @@ html,body{
 
     @media (max-width: 800px){
       .box_1{
-        background-image: url('assets/001.png');
+        background-image: url('assets/001-2.png');
       }
       
       .box_2{
