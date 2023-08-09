@@ -79,7 +79,7 @@ html,body{
         margin-bottom:1em;
         margin-top:3em;
       font-family: 'Montserrat', sans-serif;
-        font-size: 2.25em;
+        font-size: 2em;
         font-weight: 200;
         color:#dfe6e9;
         text-align: center;
@@ -100,7 +100,7 @@ html,body{
       text-align: center;
       border: 2px solid white;
       border-radius: 3px;
-      font-size: 1.25em;
+      font-size: 1em;
       transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
     }
     .overlay-link:hover{
