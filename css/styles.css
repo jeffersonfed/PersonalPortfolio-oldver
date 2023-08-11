@@ -650,12 +650,24 @@ input,textarea
     height: 65px;
     align-items: center;
 }
+
+.contact .contact-content .left .icons .row .sub-title:hover{
+    color: #212121;
+    background-color: #dfe6e9;
+    transition: all 0.3s ease;
+}
+
+
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
     color: #13c4a5;
+}
+.contact .contact-content .row .head .link-keybase i{
+    font-size: 15px;
+    color: #dfe6e9;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
