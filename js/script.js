@@ -34,7 +34,7 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         // strings: ["I'm an Independent Learner", "For now, I focus on web development.", "Currently, I am focused on learning", "JS frameworks and CSS frameworks(tailwind css, react.js, next.js, etc)"],
-        strings: ["I'm a Self-Taught Front End Developer", "Currently, I am focused on learning", "JS frameworks and CSS frameworks(tailwind css, react.js, next.js, etc)"],
+        strings: ["I'm a Self-Taught Front End Developer", "Currently, I am focused on learning", "JS frameworks and CSS frameworks(react.js, next.js, tailwind css, etc)"],
         typeSpeed: 50,
         backSpeed: 70,
         loop: true
