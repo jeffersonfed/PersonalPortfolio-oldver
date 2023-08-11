@@ -100,7 +100,7 @@
                          <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                      </div>
                      <div class="button-area">
-                         <button type="submit" >Send message</button>
+                         <button type="submit" id="message">Send message</button>
                      </div>
                      <p>
                         Currently the submit button has been disabled for a while and if someone can teach me how to make it works would be really helpful.<br>If you really want to contact me, Please go to this <a href="https://links-jefferson.vercel.app" style="color: #13c4a5;">link</a>
@@ -164,7 +164,7 @@
     <script>
     function sendEmail(){
         Email.send({
-            SecureToken : "74aba376-a7c1-49fa-b939-e8bc42ca784c",
+            SecureToken : "b5d2c8b7-8fef-4c97-a908-7d66cfb71761",
             To  : 'stupidjeff430@gmail.com',
             From : document.getElementById("email").value,
             Subject : "This is the subject",
@@ -174,7 +174,7 @@
             + "<br> Message: " + document.getElementById("message").value
 
         }).then(
-            message => alert("Message sent successfully, will get back to you as soon as possible")
+            message => alert("The contact submit button has been disabled for a while. Please contact me via email or Keybase. Thank you.")
         );
     }
     </script>
