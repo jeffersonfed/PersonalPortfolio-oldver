@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio Website #resume">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, API, Animation">
+    <meta name="author" content="Ritch Johan Jefferson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" type="image/JF-icon" href="assets/favicon.ico">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="skill.css">
+
+
+</script>
+</head>
+<body>
+    <!-- pre loader  -->
+ <div id="preloader"></div>
+ <nav class="navbar">
+     <div class="max-width">
+         <div class="logo"><a href="https://jeffersonrj.vercel.app">Jefferson<span>fed</span></a></div>
+         <ul class="menu">
+             <li><a href="https://jeffersonrj.vercel.app" class="menu-btn">Home</a></li>
+             <li><a href="contact.html" class="menu-btn">Contact</a></li>
+             <!-- <li><a href="https://buymeacoffee.com/jeffersonfed" class="menu-btn">Support me!</a></li> -->
+             <!-- <li><a href="resume.html" class="menu-btn">Resume</a></li> -->
+         </ul>
+         <div class="menu-btn">
+             <i class="fas fa-bars"></i>
+         </div>
+     </div>
+ </nav>
+
+ <!-- home section start -->
+ <section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Resume</h2>
+        <div  style="text-align: center; margin-bottom: 150px;">
+            <div>
+                <div class="text" style="font-size: 20px;">My Resume:</div>
+            </div>
+            <div style="display: flex; float: left; margin-left: 30%;">
+                <a href="https://www.linkedin.com/in/jeffersonfed" target="_blank"><i class="fa-brands fa-linkedin fa-5x" style="color: #0077b5;"></i></a>
+            </div>
+            <div style="display: flex; float: right; margin-right: 30%;">
+                <a href="../resume/Resume_CV.pdf" target="_blank"><i class="fa-regular fa-file fa-5x" style="color: #dfe6e9"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- <p style="text-align: center;">PDF file will be uploaded in the future, for now you can open my linkedin</p> -->
+</section>
+ 
+
+
+ <!-- footer section start -->
+
+ <footer id="social">
+    <div id="bk" class="country">
+        <p style="font-size: 15px;">My Timezone</p>
+        <p>
+            <div class="time"></div>
+            <div class="time-detail">&nbsp;GMT+7</div>
+        </p>
+        <div class="date"></div>
+</div>
+<p><a href="https://open.spotify.com/playlist/6OpjGPXUJ9ZVwPuy955UuL?si=9cd68c68cd3d4646"><img src="https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&amp;cover_image=true&amp;theme=novatorem&amp;show_offline=true&amp;background_color=000000&amp;interchange=false&amp;bar_color=13c4a5&amp;bar_color_cover=false" alt="spotify-github-profile"></a></p>
+
+     <ul id="media">
+    <!-- github  -->
+         <li style="--clr:#ffffff;">
+             <a href="https://github.com/jeffersonfed" target="_blank"><i class="fa-brands fa-github"></i></a>
+         </li>
+    <!-- Linkedin  -->
+          <li style="--clr:#0077b5;">
+            <a href="https://www.linkedin.com/in/jeffersonfed" target="_blank"><i class="fa-brands fa-linkedin"></i></a>         
+        </li>
+
+         <li style="--clr:#ffffff;">
+             <a href="https://links-jefferson.vercel.app" target="_blank"><i class="fa fa-globe"></i></i></a>
+         </li>
+     </ul>
+    
+     <p style="color: #dfe6e9;">&copy; 2023 | Made with <i class="fa-solid fa-heart" style="color: red;"></i> by Ritch Johan Jefferson | All Rights Reserved </p>
+ </footer>
+ 
+
+    
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="time.js"></script>
+    <!-- scroll bar js  -->
+    <script type="text/javascript">
+        var preogressbar = document .getElementById("preogressbar")
+        var percent = document .getElementById("percent")
+        
+        var totalHeight = document .body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            var progress =( window.pageYOffset / totalHeight) * 100;
+            preogressbar.style.height = progress + "%";
+            percent.innerHTML = "Page Scrolled " + Math.round(progress)+ "%"
+        }
+    </script>
+    <!-- pre loader js  -->
+    <script>
+    var loader = document .getElementById("preloader");
+
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+    </script>
+</body>
+</html>
