@@ -9,7 +9,7 @@
 [![Commits Badge](https://badges.pufler.dev/commits/all/jeffersonfed?&label=Overall%20Commits&color=blue&icon=5&pretty=false&style=flat)](#top)
 [![Gist](https://badges.pufler.dev/gists/jeffersonfed?&label=Gist&color=blue&icon=5&pretty=false&style=flat)](https://gist.github.com/jeffersonfed)
 
-[![Updated Badge](https://badges.pufler.dev/updated/jeffersonfed/PortfolioSite?&label=Last%20Updated&color=blue&icon=5&pretty=false&style=flat)](https://github.com/jeffersonfed/PortfolioSite)
+[![Updated Badge](https://badges.pufler.dev/updated/jeffersonfed/PortfolioSite?&label=Last%20Updated&color=blue&icon=5&pretty=false&style=for-the-badge)](https://github.com/jeffersonfed/PortfolioSite)
 
 
 <!-- ## 🌐 Socials: -->
