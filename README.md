@@ -24,7 +24,8 @@
 #### - Currently, I only use the languages that I feel comfortable with and understand better, which are HTML, CSS, JavaScript, and APIs.
 
 #### - The purpose of this portfolio site:
-- To showcase all of the projects that have been accomplished.
-And add some ongoing projects and half-done projects in the [projects section](https://jeffersonrj.vercel.app/projects.html).
-
+- To showcase all of the projects that have been accomplished. And add some ongoing projects and half-done projects in the [projects section](https://jeffersonrj.vercel.app/projects.html).               
+    - Javascript Projects
+    - React Js Projects
+<br>
 - can view the code in github for every project [coming soon for all projects].
