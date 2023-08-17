@@ -98,7 +98,7 @@
                  <div class="text">Message me</div>
 
                  <!-- my formspree api token | use your own if you want it to land in your email -->
-                 <form action="https://formspree.io/f/xwkdldon"method="POST">
+                 <form id="my-form" action="https://formspree.io/f/xwkdldon" method="POST">
                      <div class="fields">
                          <div class="field name">
                              <input type="text" placeholder="Name" id="name" name="name" required>
@@ -114,10 +114,11 @@
                          <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
                      </div>
                      <div class="button-area">
-                         <button type="submit" id="message">Send message</button>
-                     </div>
+                         <button type="submit" id="message my-form-button">Send message</button>
+                     </div><br>
+                     <p style="text-align: center;" id="my-form-status"></p><br>
                      <p>
-                        Temporary using formspree.io services. You can also contact me on <a href="https://keybase.io/jeffersonfed" style="color: #13c4a5;">Keybase!</a>
+                        Temporarily using Formspree.io services. You can also contact me on <a href="https://keybase.io/jeffersonfed" style="color: #13c4a5;">Keybase!</a>
                     </p>
                  </form>
              </div>
@@ -175,21 +176,36 @@
 
     <!-- send email -->
     <script>
-    function sendEmail(){
-        Email.send({
-            SecureToken : "b5d2c8b7-8fef-4c97-a908-7d66cfb71761",
-            To  : 'stupidjeff430@gmail.com',
-            From : document.getElementById("email").value,
-            Subject : "This is the subject",
-            Body : "Name:" + document.getElementById("name").value
-            + "<br> Email: " + document.getElementById("email").value
-            + "<br> Subject: " + document.getElementById("subject").value
-            + "<br> Message: " + document.getElementById("message").value
-
-        }).then(
-            message => alert("The contact submit button has been disabled for a while. Please contact me via email or Keybase. Thank you.")
-        );
+     var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
     }
+    form.addEventListener("submit", handleSubmit)
     </script>
 
 
