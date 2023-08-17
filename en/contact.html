@@ -96,27 +96,26 @@
                 </p> -->
                  <br>
                  <div class="text">Message me</div>
-                 <form onsubmit="sendEmail(); reset(); return false;">
+                 <form action="https://formspree.io/f/xwkdldon"method="POST">
                      <div class="fields">
                          <div class="field name">
                              <input type="text" placeholder="Name" id="name" required>
                          </div>
                          <div class="field email">
-                             <input type="email" placeholder="Email" id="email" required>
+                             <input type="email" placeholder="Email" id="email" name="email" required>
                          </div>
                      </div>
                      <div class="field">
                          <input type="text" placeholder="Subject" id="subject" required>
                      </div>
                      <div class="field textarea">
-                         <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                         <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
                      </div>
                      <div class="button-area">
                          <button type="submit" id="message">Send message</button>
                      </div>
                      <p>
-                        Currently the submit button has been disabled for a while and if someone can teach me how to make it works would be really helpful.<br>If you really want to contact me, Please go to this <a href="https://links-jefferson.vercel.app" style="color: #13c4a5;">link</a>
-                        <br> If you want to have a more secure channel of communication, you can also reach me on <a href="https://keybase.io/jeffersonfed" style="color: #13c4a5;">Keybase!</a>
+                        Temporary using formspree.io services. You can also contact me on <a href="https://keybase.io/jeffersonfed" style="color: #13c4a5;">Keybase!</a>
                     </p>
                  </form>
              </div>
