@@ -138,7 +138,7 @@ html,body{
        background-image: url('assets/004.png');
     }
     .box_5{
-       background-image: url('');
+       background-image: url('assets/005.png');
     }
     .box_6{
        background-image: url('');
@@ -233,7 +233,34 @@ html,body{
          background-image: url('assets/004.png');
       }
       .box_5{
+         background-image: url('assets/005.png');
+      }
+      .box_6{
          background-image: url('');
+      }
+      .box_7{
+         background-image: url('');
+      }
+      .box_8{
+         background-image: url('');
+      }
+    }
+    @media (max-width: 700px){
+      .box_1{
+        background-image: url('assets/001-2.png');
+      }
+      
+      .box_2{
+         background-image: url('assets/002-smaller.png');
+      }
+      .box_3{
+         background-image: url('assets/003-2.png');
+      }
+      .box_4{
+         background-image: url('assets/004.png');
+      }
+      .box_5{
+         background-image: url('assets/005.png');
       }
       .box_6{
          background-image: url('');
