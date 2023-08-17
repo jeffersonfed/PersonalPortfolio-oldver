@@ -2,7 +2,7 @@
 const resume = {
     firstName: 'Ritch Johan',
     lastName: 'Jefferson',
-    jobTitle: 'Independent Student',
+    jobTitle: 'Self-Taught Developer',
     city: 'Jakarta',
     postalCode: '15339',
     country: 'Indonesia',
@@ -31,7 +31,7 @@ const resume = {
       },
       {
         label: 'My Project',
-        link: 'https://jeffersonrj.vercel.app/html/projects.html'
+        link: 'https://jeffersonrj.vercel.app/projects.html'
       }
     ],
     skills: [
@@ -70,7 +70,7 @@ const resume = {
       
     ],
     
-    photo: '',
+    photo: 'https://media.licdn.com/dms/image/D5603AQFutc85aeSQMw/profile-displayphoto-shrink_400_400/0/1684853567734?e=1697673600&v=beta&t=mJnmIohB-wffHg1_4jS4o4SjDwqG_B05iFGCOYWALnU',
   }
   
   const formatResume = (r) => ({
