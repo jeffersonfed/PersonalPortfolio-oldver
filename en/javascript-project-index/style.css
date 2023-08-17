@@ -126,19 +126,25 @@ html,body{
     
     .box_1{
       background-image: url('assets/001-2.png');
+      /* background-position: center; */
     }
     
     .box_2{
        background-image: url('assets/002.png');
+       background-position: center;
     }
     .box_3{
        background-image: url('assets/003-2.png');
+       background-position: center;
     }
     .box_4{
        background-image: url('assets/004.png');
+       background-position: center;
     }
     .box_5{
        background-image: url('assets/005.png');
+       background-position: center;
+
     }
     .box_6{
        background-image: url('');
