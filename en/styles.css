@@ -137,6 +137,20 @@ section .title::after{
     cursor: pointer;
 }
 
+.resume li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 0 3px 0;
+
+}
+
+.resume li a{
+    display: block;
+    justify-content: space-between;
+    
+}
+
 /* menu btn styling */
 .menu-btn{
     color: #dfe6e9;
