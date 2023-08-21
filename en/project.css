@@ -337,65 +337,7 @@ section .title::after{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 05);
     animation-delay: -1s;
 }
-/* 
-.container .box:hover #sixth::after
-{
-    bottom: -50px;
-    right: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("/assets/github-mark-white.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-}
-.container .box:hover #fifth::after
-{
-    bottom: -50px;
-    right: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("/assets/github-mark-white.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-}
 
-.container .box:hover #fourth::after
-{
-    bottom: -50px;
-    right: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("/assets/github-mark-white.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    
-}
-.container .box:hover #third::after
-{
-    bottom: -50px;
-    right: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("/assets/github-mark-white.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-} */
-/* .container .box:hover #second::after
-{
-    bottom: -50px;
-    right: 50px;
-    width: 100px;
-    height: 100px;  
-    opacity: 1;
-    background: url("/assets/github-mark-white.png") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    
-} */
 /* .container .box:hover #first::after
 {
     bottom: -50px;
