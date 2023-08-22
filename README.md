@@ -29,3 +29,10 @@
     - React Js Projects
 <br>
 - can view the code in github for every project [coming soon for all projects].
+
+# Color Reference
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Light| ![#dfe6e9](https://via.placeholder.com/10/dfe6e9?text=+) #dfe6e9 |
+| Dark | ![#212121](https://via.placeholder.com/10/212121?text=+) #212121 |
+| Green | ![#13c4a5](https://via.placeholder.com/10/13c4a5?text=+) #13c4a5 |
