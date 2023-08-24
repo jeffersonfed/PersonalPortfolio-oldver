@@ -1,0 +1,36 @@
+.con {
+    max-width: 30%;
+    padding: 0px 10px;
+    overflow: auto;
+    margin: 20px 5px;
+    background-color: #212121;
+  }
+  .iconArea {
+    width:50px;
+    float: left;
+    display: inline-block;
+  }
+  .copyArea {
+    max-width: 850px;
+    float: none;
+    display:block;
+    overflow: hidden;
+  }
+  .copyArea p {
+    margin-top: 20px;
+  }
+  .closeArea {
+    width: 30px;
+    float: right;
+  }
+  .closeArea i {
+    cursor: pointer;
+  }
+  
+  
+  /* Unique Box Styles */
+  .warning {
+    background:salmon;
+    border-radius: 3px;
+    
+  }
