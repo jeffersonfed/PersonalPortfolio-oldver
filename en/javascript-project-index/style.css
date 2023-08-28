@@ -147,7 +147,8 @@ html,body{
 
     }
     .box_6{
-       background-image: url('');
+       background-image: url('assets/006.png');
+       background-position: center;
     }
     .box_7{
        background-image: url('');
