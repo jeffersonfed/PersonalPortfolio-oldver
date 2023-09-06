@@ -6,6 +6,6 @@ var el = document.getElementById('seconds'),
          if (total <= 0) {
              clearInterval(timeinterval);
              // do redirect or something ~ window.location = '//google.de';
-             window.location = 'https://jeffersonfed.xyz';
+             window.location = 'https://portfolio.jeffersonfed.xyz';
          }
      }, 1000);
