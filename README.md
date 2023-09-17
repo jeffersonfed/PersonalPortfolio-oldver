@@ -21,7 +21,6 @@
 - Javascript
 
 [Live Preview](https://jeffersonfed-portfolio-old-ver.netlify.app)
-
 ***
 <img src="./index.png">
 <img src="./index2.png">
