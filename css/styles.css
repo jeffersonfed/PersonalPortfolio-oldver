@@ -852,7 +852,6 @@ footer p a:hover
 /* pr loader design  */
 #preloader
 {
-    background:url("img/e3a.gif") no-repeat center ;
     background-size: 15%;
     filter: invert(100%);
     background-color: #fff;
@@ -861,7 +860,6 @@ footer p a:hover
     position: fixed;
     cursor: pointer;
     z-index: 1000;
-    /* border-radius: 12px; */
 }
 /* responsive media query start */
 @media (max-width: 1104px) {

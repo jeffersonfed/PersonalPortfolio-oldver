@@ -19,11 +19,14 @@
 
 </h2>
 
+Code is not Really clean, But I did what I can
+
 
 <img src="./index.png">
 <img src="./index2.png">
 <img src="./skills.png">
 <img src="./index3.png">
+<img src="./contact.png">
 <img src="./footer.png">
 
 
