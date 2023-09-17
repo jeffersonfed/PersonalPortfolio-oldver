@@ -1,5 +1,5 @@
 let country = document.getElementsByClassName('country');
-let zone = ['Asia/Jakarta'];
+let zone = ['Asia/Jakarta'];//add your own timezone
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function inputText(country,i) {
