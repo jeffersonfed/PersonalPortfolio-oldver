@@ -28,9 +28,6 @@
 <img src="./index3.png">
 <img src="./contact.png">
 <img src="./footer.png">
-
-
-
 <img src="./projects.png">
 
 # Color Reference
