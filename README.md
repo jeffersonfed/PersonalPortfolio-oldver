@@ -22,13 +22,13 @@
 
 [Live Preview](https://jeffersonfed-portfolio-old-ver.netlify.app)
 ***
-<img src="./index.png">
-<img src="./index2.png">
-<img src="./skills.png">
-<img src="./index3.png">
-<img src="./contact.png">
-<img src="./footer.png">
-<img src="./projects.png">
+<img src="./assets/screenshot/index.png">
+<img src="./assets/screenshot/index2.png">
+<img src="./assets/screenshot/skills.png">
+<img src="./assets/screenshot/index3.png">
+<img src="./assets/screenshot/contact.png">
+<img src="./assets/screenshot/footer.png">
+<img src="./assets/screenshot/projects.png">
 
 # Color Reference
 | Color             | Hex                                                                |
