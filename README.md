@@ -37,3 +37,6 @@
 | Dark | ![#212121](https://via.placeholder.com/10/212121?text=+) #212121 |
 | Green | ![#13c4a5](https://via.placeholder.com/10/13c4a5?text=+) #13c4a5 |
 
+## License
+
+[Creative Commons Zero v1.0 Universal](LICENSE)
