@@ -39,7 +39,6 @@
 
 # Author
 - [Ritch Johan Jefferson](https://github.com/jeffersonfed)
-- [TypoFinder Bot](https://github.com/typofinderai)
 
 ## License
 
