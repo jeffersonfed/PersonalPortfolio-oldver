@@ -20,6 +20,7 @@
 - HTML5
 - CSS3
 - Javascript
+- Font Awesome
 
 [Live Preview](https://jeffersonfed-portfolio-old-ver.netlify.app)
 ***
