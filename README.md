@@ -25,7 +25,7 @@
 [Live Preview](https://jeffersonfed-portfolio-old-ver.netlify.app)
 ***
 <img src="./assets/screenshot/index.png">
-<img src="./assets/screenshot/index2.png">
+<img src="./assets/screenshot/index(2).png">
 <img src="./assets/screenshot/skills.png">
 <img src="./assets/screenshot/index3.png">
 <img src="./assets/screenshot/contact.png">
