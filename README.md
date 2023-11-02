@@ -7,9 +7,10 @@
 [![Updated Badge](https://badges.pufler.dev/updated/jeffersonfed/PortfolioSite?&label=Last%20Updated&color=blue&icon=5&pretty=false&style=for-the-badge)](https://github.com/jeffersonfed/PortfolioSite)
 
 <!-- ## 🌐 Socials: -->
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/jeffersonfed)
+
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2.svg?style=plastic&logo=Twitter&logoColor=white)](https://twitter.com/jeffersonfed14) 
 [![Keybase](https://img.shields.io/badge/Keybase-black?style=plastic&logo=keybase&logoColor=orange)](https://keybase.io/jeffersonfed/)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=plastic&logo=ko-fi&logoColor=white)](https://ko-fi.com/jeffersonfed)
 
 </h2>
 
